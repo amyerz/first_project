@@ -1,0 +1,35 @@
+a:link {text-decoration:none;}   
+a:visited {color: gray; text-decoration:none;} /* visited link */
+a:hover {color: black;}   /* mouse over link */
+a:active {color: black; text-decoration:underline;}  /* selected link */
+
+
+h1 a:link {color:#FFFFFF;}
+h1 a:visited {color:#FFFFFF;}
+h1 a:hover: {color: black;}
+
+
+#header {
+	background-color: gray;
+	padding-left: 10px;}
+
+.weeks {
+padding: 5px;
+float: left;
+text-align: center;
+width:100px;
+height:450px;
+border:1px solid gray;}
+
+.date {
+	display: inline-block;
+	padding: 5px 15px 5px 15px;
+}
+
+
+body {font-family:Georgia;}
+title {background-color: }
+
+
+
+.ref {font-size: 12px}
