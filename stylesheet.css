@@ -4,37 +4,69 @@ a:hover {color: black;}   /* mouse over link */
 a:active {color: black; text-decoration:underline;}  /* selected link */
 
 
-h1 a:link {color:#FFFFFF;}
-h1 a:visited {color:#FFFFFF;}
-h1 a:hover {color: black;}
+header a:link {color:#FFFFFF;}
+header a:visited {color:#FFFFFF;}
+header a:hover {color: black;}
 
 
 header {
-	margin-left: -10px;
-	height: 60px;
+	position: fixed;
+	width: 100%;
+	font-family: Georgia;
+	font-weight: bolder;
 	text-align: left;
-	font-size: 24px;
+	font-size: 45px;
 	float: clear;
 	background-color: gray;
-	padding-left: 10px;}
+	padding: 5px 0  5px 10px;}
+
+header img {
+	float: right;
+	width: auto;
+	height: 20px;
+	position: absolute;
+	bottom: 5px;
+	right: 20px;
+}
 
 .weeks {
-padding: 5px;
+
 float: left;
 text-align: center;
 width:100px;
-height:450px;
+background-color: #F2F2F2;
+height: 100%;
+position: fixed;
+left: 0;
+top: 61px;
 
+}
+
+p {
+	margin-bottom: 0;
+}
+
+ul {
+	margin-top: 0;
 }
 
 .date {
-	float:left;
-	padding: 5px 15px 5px 15px;
+	position: absolute;
+	padding: 5px 20px 5px 20px;
+	top: 61px;
+	left:100px;
 }
 
-body {font-family:Georgia;}
+body {
+	font-family: Georgia;
+	margin: 0;
+}
 
-.ref {font-size: 12px}
+.ref {
+	font-size: 12px}
+.ref h5 {
+	margin-bottom: 10px;
+}
 
 footer {
 	clear:both;
@@ -42,7 +74,9 @@ footer {
 	font-size: 12px;
 	color:#FFFFFF;
 	text-align: center;	
-	height: 30px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 
 
 }
